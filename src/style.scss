@@ -1,0 +1,28 @@
+.week-swiper{
+    .week-swiper-wrapp{
+        height: 90px;
+        .items{
+            padding: 0 10px;
+            display: flex;
+            justify-content: space-between;
+            .item{
+                width: calc(100vw / 8);
+                background-color: #eee;
+                text-align: center;
+                padding: 10px 0;
+                border-radius:10px ;
+                font-size: 20px;
+        
+            }
+            .tody{
+                background-color:rgba($color: #446DFF, $alpha: 0.2);
+            }
+            .active{
+                background-color:#446DFF;
+                color: white;
+            }
+        }
+    }
+    
+}
+

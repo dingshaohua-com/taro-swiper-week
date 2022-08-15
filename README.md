@@ -46,3 +46,4 @@ export default () => {
 | ------------ | -------------------------- | ------- | ---- |
 | value        | 初始值                     | string  | 今天 |
 | hideNickname | 隐藏日期别名，如昨天、明天 | boolean | true |
+|onChange|日期选择回调|function|null|

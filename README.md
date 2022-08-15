@@ -9,7 +9,7 @@
 ## 简介
 
 taro-swiper-week 是一个基于 taro 的日期选择器控件。  
-![img][baidu]
+![img](https://github.com/dingshaohua-cn/taro-swiper-week/blob/main/preview/img.gif?raw=true)
 
 ## 使用
 

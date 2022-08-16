@@ -1,0 +1,33 @@
+{
+  "miniprogramRoot": "miniprogram/miniprogram/",
+  "pluginRoot": "miniprogram/plugin/",
+  "compileType": "plugin",
+  "appid": "wxf5a99af4ffb47887",
+  "projectname": "taro-swiper-week",
+  "description": "",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "enhance": false,
+    "compileHotReLoad": false,
+    "postcss": false,
+    "minified": false,
+    "newFeature": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "libVersion": "2.25.3",
+  "srcMiniprogramRoot": "miniprogram/miniprogram/",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "condition": {},
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}

@@ -37,7 +37,6 @@ export default props => {
     } else if (ind === -1 || ind === 2) {
       // 向右滑动:给即将到来的上一轮设置新值
       const fistDay = comeGroup[0];
-      console.log(fistDay, getWeekDay(fistDay)[0]);
       const swiperIndex = getSwiperIndex(oIndex, "pre");
       weekDays[swiperIndex] = getWeekDay(fistDay)[0];
     }

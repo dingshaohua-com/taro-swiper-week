@@ -3,11 +3,11 @@
 
 ![](https://img.shields.io/badge/taro_swiper_week-v0.0.1-brightgreen)
 <br> <br>
-taro-swiper-week 是一个基于 taro 的日期选择器控件。 可以用在h5、微信小程序等众多平台！
+taro-swiper-week is a date picker for taro, It can be used in many platforms such as H5、mini program!
 
 ![img](https://github.com/dingshaohua-cn/taro-swiper-week/blob/main/preview/img.gif?raw=true)
 
-简体中文 | [English](./README-en.md)
+[简体中文](./README.md) | English
 </div>
 
 
@@ -15,15 +15,15 @@ taro-swiper-week 是一个基于 taro 的日期选择器控件。 可以用在h5
 
 
 
-## 🔨 使用
+## 🔨 Usage
 
-先安装
+How to install
 
 ```shell
 npm install taro-swiper-week
 ```
 
-再引入页面
+Use in page
 
 ```js
 import SwiperWeek from "taro-swiper-week";
@@ -47,7 +47,7 @@ export default () => {
 };
 ```
 
-## 🍭 配置项
+## 🍭 Options
 
 | 参数         | 说明                       | 类型     | 默认 |
 | ------------ | -------------------------- | -------- | ---- |

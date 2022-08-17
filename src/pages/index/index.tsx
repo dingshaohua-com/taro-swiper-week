@@ -1,5 +1,5 @@
 // @ts-ignore
-import SwiperWeek from "../../components/taro-swiper-week";
+import SwiperWeek from "../../../lib";
 import { View } from "@tarojs/components";
 import { useState } from "react";
 

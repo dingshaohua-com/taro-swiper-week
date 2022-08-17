@@ -1,6 +1,0 @@
-{
-  "publicComponents": {
-    "taro-swiper-week": "components/taro-swiper-week/index"
-  },
-  "main": "index.ts"
-}

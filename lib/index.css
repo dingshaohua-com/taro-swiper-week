@@ -1,0 +1,25 @@
+/* src/components/taro-swiper-week/style.scss */
+.week-swiper .week-swiper-wrapp {
+  height: 90px;
+}
+.week-swiper .week-swiper-wrapp .items {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.week-swiper .week-swiper-wrapp .items .item {
+  width: 12.5vw;
+  background-color: #eee;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.week-swiper .week-swiper-wrapp .items .tody {
+  background-color: rgba(68, 109, 255, 0.2);
+}
+.week-swiper .week-swiper-wrapp .items .active {
+  background-color: #446DFF;
+  color: white;
+}
+/*# sourceMappingURL=index.css.map */

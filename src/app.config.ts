@@ -1,4 +1,4 @@
-export default {
+export default defineAppConfig({
   pages: [
     'pages/index/index'
   ],
@@ -7,11 +7,5 @@ export default {
     navigationBarBackgroundColor: '#fff',
     navigationBarTitleText: 'WeChat',
     navigationBarTextStyle: 'black'
-  },
-  plugins: {
-    myPlugin: {
-      version: 'dev',
-      provider: 'wxf5a99af4ffb47887'
-    }
   }
-}
+})

@@ -1,33 +1,15 @@
 {
-  "miniprogramRoot": "miniprogram/miniprogram/",
-  "pluginRoot": "miniprogram/plugin/",
-  "compileType": "plugin",
-  "appid": "wxf5a99af4ffb47887",
+  "miniprogramRoot": "./dist",
   "projectname": "taro-swiper-week",
   "description": "",
+  "appid": "touristappid",
   "setting": {
     "urlCheck": true,
     "es6": false,
     "enhance": false,
     "compileHotReLoad": false,
     "postcss": false,
-    "minified": false,
-    "newFeature": true,
-    "babelSetting": {
-      "ignore": [],
-      "disablePlugins": [],
-      "outputPath": ""
-    }
+    "minified": false
   },
-  "libVersion": "2.25.3",
-  "srcMiniprogramRoot": "miniprogram/miniprogram/",
-  "packOptions": {
-    "ignore": [],
-    "include": []
-  },
-  "condition": {},
-  "editorSetting": {
-    "tabIndent": "insertSpaces",
-    "tabSize": 2
-  }
+  "compileType": "miniprogram"
 }

@@ -16,7 +16,6 @@
     "baseUrl": ".",
     "rootDir": ".",
     "jsx": "react-jsx",
-    "jsxFactory": "React.createElement",
     "allowJs": true,
     "resolveJsonModule": true,
     "typeRoots": [

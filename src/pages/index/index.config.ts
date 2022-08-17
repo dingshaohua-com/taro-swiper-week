@@ -1,6 +1,3 @@
-export default {
-  navigationBarTitleText: '用例',
-  usingComponents: {
-    'taro-swiper-week': 'plugin://myPlugin/taro-swiper-week'
-  }
-}
+export default definePageConfig({
+  navigationBarTitleText: '首页'
+})

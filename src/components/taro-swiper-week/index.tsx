@@ -43,6 +43,8 @@ export default props => {
     }
     setActiveSwiper(oIndex);
   };
+  console.log(Swiper);
+  
 
   return (
     <View className="week-swiper">

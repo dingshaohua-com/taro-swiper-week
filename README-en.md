@@ -3,7 +3,8 @@
 
 ![](https://img.shields.io/badge/taro_swiper_week-v0.0.1-brightgreen)
 <br> <br>
-taro-swiper-week is a date picker for taro, It can be used in many platforms such as H5、mini program!
+taro-swiper-week is a date picker for taro.    
+It can be used in many platforms such as H5、mini program!
 
 ![img](https://github.com/dingshaohua-cn/taro-swiper-week/blob/main/preview/img.gif?raw=true)
 
@@ -32,16 +33,13 @@ import { useState } from "react";
 
 export default () => {
   const [day, setDay] = useState("2022-08-11");
-  const extraProps = {
-    value: day,
-    onChange(val) {
-      setDay(val);
-    }
+  const onChange = val => {
+    setDay(val);
   };
   return (
     <>
+      <SwiperWeek value={day} onChange={onChange} />
       <View>选中日期：{day}</View>
-      <taro-swiper-week props={extraProps} />
     </>
   );
 };
@@ -49,8 +47,8 @@ export default () => {
 
 ## 🍭 Options
 
-| 参数         | 说明                       | 类型     | 默认 |
+| props         | explain                      | type     | default |
 | ------------ | -------------------------- | -------- | ---- |
-| value        | 初始值                     | string   | 今天 |
-| hideNickname | 隐藏日期别名，如昨天、明天 | boolean  | true |
-| onChange     | 日期选择回调               | function(value) | - |
+| value        | init value                     | string   | 今天 |
+| hideNickname | hide nickname, such as yesterday、 tomorrow | boolean  | true |
+| onChange     | date selection callback              | function(value) | - |

@@ -3,7 +3,8 @@
 
 ![](https://img.shields.io/badge/taro_swiper_week-v0.0.1-brightgreen)
 <br> <br>
-taro-swiper-week 是一个基于 taro 的日期选择器控件。 可以用在h5、微信小程序等众多平台！
+taro-swiper-week 是一个基于 taro 的日期选择器控件。     
+可以用在h5、微信小程序等众多平台！
 
 ![img](https://github.com/dingshaohua-cn/taro-swiper-week/blob/main/preview/img.gif?raw=true)
 
@@ -32,16 +33,13 @@ import { useState } from "react";
 
 export default () => {
   const [day, setDay] = useState("2022-08-11");
-  const extraProps = {
-    value: day,
-    onChange(val) {
-      setDay(val);
-    }
+  const onChange = val => {
+    setDay(val);
   };
   return (
     <>
+      <SwiperWeek value={day} onChange={onChange} />
       <View>选中日期：{day}</View>
-      <taro-swiper-week props={extraProps} />
     </>
   );
 };

@@ -1,8 +1,9 @@
 {
   "name": "taro-swiper-week",
-  "version": "0.0.1-beta.2",
-  "private": true,
+  "version": "0.0.1-beta.3",
   "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "templateInfo": {
     "name": "default",
     "typescript": true,
@@ -27,7 +28,7 @@
     "dev:qq": "npm run build:qq -- --watch",
     "dev:jd": "npm run build:jd -- --watch",
     "dev:quickapp": "npm run build:quickapp -- --watch",
-    "build:npm": "node ./script/build.js"
+    "build:esbuild": "node ./script/build.mjs"
   },
   "browserslist": [
     "last 3 versions",
@@ -46,7 +47,10 @@
   },
   "homepage": "https://github.com/dingshaohua-cn/taro-swiper-week#readme",
   "files": [
-    "lib"
+    "lib",
+    "package.json",
+    "README.md",
+    "README-en.md"
   ],
   "dependencies": {
     "@babel/runtime": "^7.7.7",

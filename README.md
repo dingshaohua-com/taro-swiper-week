@@ -28,6 +28,7 @@ npm install taro-swiper-week
 
 ```js
 import SwiperWeek from "taro-swiper-week";
+import "taro-swiper-week/lib/index.css";
 import { View } from "@tarojs/components";
 import { useState } from "react";
 
@@ -45,6 +46,21 @@ export default () => {
 };
 ```
 
+注意   
+如果你的环境是h5，还需要修改配置项如下。   
+因为taro的单位转换默认不处理node_modules中的，如下配置方可帮我们转换。
+```js
+// config/index.js
+const config = {
+  ...
+  h5: {
+    esnextModules:['taro-swiper-week'],
+    ...
+  }
+  ...
+}
+```
+
 ## 🍭 配置项
 
 | 参数         | 说明                       | 类型     | 默认 |
@@ -52,3 +68,7 @@ export default () => {
 | value        | 初始值                     | string   | 今天 |
 | hideNickname | 隐藏日期别名，如昨天、明天 | boolean  | true |
 | onChange     | 日期选择回调               | function(value) | - |
+
+
+## 🤝 谢谢
+如果这个项目对你有帮助,请帮忙点一个 Star

@@ -28,6 +28,7 @@ Use in page
 
 ```js
 import SwiperWeek from "taro-swiper-week";
+import "taro-swiper-week/lib/index.css";
 import { View } from "@tarojs/components";
 import { useState } from "react";
 
@@ -45,6 +46,21 @@ export default () => {
 };
 ```
 
+If your environment is H5, you need to modify the configuration items as follows.    
+Because the unit conversion of taro does not process node_ Modules, the following configuration can help us convert.
+```js
+// config/index.js
+const config = {
+  ...
+  h5: {
+    esnextModules:['taro-swiper-week'],
+    ...
+  }
+  ...
+}
+```
+
+
 ## 🍭 Options
 
 | props         | explain                      | type     | default |
@@ -52,3 +68,6 @@ export default () => {
 | value        | init value                     | string   | 今天 |
 | hideNickname | hide nickname, such as yesterday、 tomorrow | boolean  | true |
 | onChange     | date selection callback              | function(value) | - |
+
+## 🤝 thanks
+If this project is helpful to you, please click a Star

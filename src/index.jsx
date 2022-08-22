@@ -7,7 +7,7 @@ import "./style.scss";
 
 export default props => {
   // Swiper初始化 上周 本周 下周的数据
-  const [weekDays, setWeekDays] = useState<any>(getWeekDay());
+  const [weekDays, setWeekDays] = useState(getWeekDay());
   // Swiper当前展示的面板索引 默认是1 即显示本周的日期组
   const [activeSwiper, setActiveSwiper] = useState(1);
   // 当前激活的选中日期

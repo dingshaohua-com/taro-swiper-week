@@ -8,7 +8,8 @@ export default {
     output: [
         {
             file: resolveFile('lib/index.js'),
-            format: 'es'
+            format: 'es',
+            banner: `import './index.css';`  // 将postcss处理后的css注入到js中 方便用户不再单独引入
         }
     ],
     plugins: [
@@ -21,5 +22,6 @@ export default {
                 framework: 'react'
             }]],
             "plugins": ["@babel/plugin-transform-runtime"]
-        })]
+        })
+    ]
 };

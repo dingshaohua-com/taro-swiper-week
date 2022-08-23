@@ -28,7 +28,6 @@ npm install taro-swiper-week
 
 ```js
 import SwiperWeek from "taro-swiper-week";
-import "taro-swiper-week/lib/index.css";
 import { View } from "@tarojs/components";
 import { useState } from "react";
 
